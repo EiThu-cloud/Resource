@@ -1,0 +1,11 @@
+CustomerID,FirstName,LastName,Email,PhoneNumber,OrderAmount,PaymentAmount
+1,John,Doe,john.doe@example.com,123-456-7890,100.5,90.5
+2,Jane,Smith,jane.smith@example.com,234-567-8901,,150.75
+3,Alice,Johnson,,345-678-9012,200.0,195.0
+4,Bob,Brown,bob.brown@example.com,456-789-0123,250.25,
+5,Charlie,,charlie.davis@example.com,567-890-1234,300.5,290.5
+6,Eve,White,eve.white@example.com,,350.75,350.0
+7,Frank,Green,frank.green@example.com,789-012-3456,,400.0
+8,,Black,grace.black@example.com,890-123-4567,450.25,450.0
+9,Hank,Moore,hank.moore@example.com,901-234-5678,500.5,
+10,Ivy,Taylor,ivy.taylor@example.com,012-345-6789,550.75,540.0

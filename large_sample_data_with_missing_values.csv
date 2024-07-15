@@ -1,0 +1,501 @@
+CustomerID,FirstName,LastName,Email,PhoneNumber,OrderAmount,PaymentAmount,Address,City,ZipCode
+1.0,,Smith,user295@example.com,111-111-0111,721.15,61.5,456 Elm St,Chicago,85001
+2.0,Bob,Johnson,user104@example.com,118-118-0118,80.01,958.68,nan,New York,nan
+3.0,nan,Moore,user14@example.com,nan,,750.63,nan,,60601
+4.0,Grace,Green,user288@example.com,143-143-0143,99.37,385.59,123 Main St,,10001
+5.0,Charlie,,user179@example.com,158-158-0158,564.23,331.71,456 Elm St,New York,nan
+6.0,Frank,Taylor,user125@example.com,148-148-0148,723.61,382.22,,Houston,90001
+7.0,Ivy,Davis,user422@example.com,160-160-0160,877.42,785.92,123 Main St,nan,10001
+8.0,Alice,Smith,user353@example.com,116-116-0116,,678.3,123 Main St,Houston,60601
+9.0,Frank,nan,user23@example.com,173-173-0173,811.64,225.94,nan,Phoenix,nan
+10.0,nan,Black,user63@example.com,156-156-0156,372.48,215.4,,Chicago,85001
+11.0,nan,Brown,,154-154-0154,824.08,143.48,123 Main St,New York,60601
+,Grace,Moore,,146-146-0146,126.11,,123 Main St,Houston,90001
+13.0,Charlie,Davis,user153@example.com,111-111-0111,900.08,776.15,nan,Los Angeles,
+14.0,Bob,Moore,user145@example.com,161-161-0161,570.21,301.79,789 Oak St,Houston,77001
+15.0,Grace,Brown,user225@example.com,179-179-0179,826.43,69.9,789 Oak St,Los Angeles,10001
+16.0,Grace,Taylor,user495@example.com,187-187-0187,479.7,128.06,123 Main St,nan,85001
+17.0,Alice,Davis,user450@example.com,182-182-0182,661.4,969.47,nan,New York,
+18.0,Eve,Moore,user462@example.com,107-107-0107,550.08,,789 Oak St,,nan
+19.0,Charlie,Black,user309@example.com,194-194-0194,745.01,780.76,789 Oak St,Houston,nan
+20.0,Jane,Johnson,user104@example.com,120-120-0120,127.55,643.43,789 Oak St,New York,60601
+21.0,Grace,Doe,user104@example.com,180-180-0180,107.33,412.84,nan,Houston,
+22.0,Eve,Johnson,user435@example.com,186-186-0186,284.75,245.4,nan,Los Angeles,85001
+23.0,Jane,Brown,user39@example.com,nan,201.57,,123 Main St,Houston,77001
+24.0,,,user435@example.com,179-179-0179,878.19,634.26,101 Pine St,Chicago,85001
+25.0,John,Doe,user198@example.com,169-169-0169,258.25,785.9,789 Oak St,nan,90001
+26.0,Ivy,Green,user134@example.com,171-171-0171,977.07,661.71,101 Pine St,Phoenix,90001
+27.0,Eve,Black,user67@example.com,124-124-0124,370.05,553.79,nan,Los Angeles,
+28.0,Hank,Green,user391@example.com,,223.01,89.85,nan,Chicago,10001
+29.0,John,Davis,user179@example.com,,800.21,970.06,nan,nan,90001
+30.0,nan,Doe,user456@example.com,111-111-0111,675.77,808.78,101 Pine St,New York,nan
+31.0,nan,Green,user42@example.com,114-114-0114,,328.18,nan,Los Angeles,85001
+32.0,Ivy,Green,user448@example.com,158-158-0158,577.6,980.97,123 Main St,Phoenix,90001
+33.0,,Moore,,,733.24,621.79,nan,nan,10001
+34.0,Frank,,user15@example.com,125-125-0125,267.03,,456 Elm St,Phoenix,90001
+35.0,Bob,Moore,user111@example.com,146-146-0146,996.52,760.67,101 Pine St,New York,nan
+36.0,Hank,Doe,user157@example.com,131-131-0131,976.05,821.18,456 Elm St,New York,90001
+37.0,Alice,Doe,user289@example.com,109-109-0109,667.81,673.65,nan,Los Angeles,85001
+38.0,Charlie,Brown,user500@example.com,115-115-0115,,171.69,123 Main St,Houston,
+39.0,Alice,Moore,user478@example.com,,696.22,371.35,789 Oak St,New York,nan
+40.0,Frank,,user231@example.com,116-116-0116,118.59,931.68,nan,nan,10001
+41.0,Charlie,nan,user411@example.com,122-122-0122,79.12,263.38,123 Main St,Houston,85001
+42.0,Hank,Johnson,user420@example.com,125-125-0125,294.8,403.56,101 Pine St,Chicago,90001
+43.0,Frank,Doe,user157@example.com,184-184-0184,489.49,460.47,456 Elm St,Phoenix,90001
+44.0,Jane,Brown,,185-185-0185,874.86,467.43,456 Elm St,Houston,77001
+45.0,Bob,Moore,user441@example.com,106-106-0106,740.81,632.29,456 Elm St,,10001
+46.0,Hank,Johnson,user97@example.com,113-113-0113,,945.92,101 Pine St,Houston,10001
+47.0,Jane,Moore,user485@example.com,178-178-0178,454.22,278.66,123 Main St,Chicago,60601
+48.0,Ivy,Green,user411@example.com,106-106-0106,378.64,165.43,101 Pine St,New York,10001
+49.0,,Brown,user439@example.com,108-108-0108,402.49,237.6,456 Elm St,Chicago,77001
+50.0,Ivy,Johnson,user289@example.com,,988.27,892.58,nan,New York,60601
+51.0,Charlie,Taylor,user254@example.com,171-171-0171,88.1,663.52,789 Oak St,,60601
+52.0,Jane,Davis,user196@example.com,158-158-0158,873.68,321.61,101 Pine St,Phoenix,90001
+53.0,,Davis,,186-186-0186,,825.15,101 Pine St,nan,90001
+54.0,Frank,Johnson,user322@example.com,192-192-0192,,868.3,123 Main St,Chicago,10001
+55.0,Grace,Moore,user10@example.com,181-181-0181,738.99,854.19,123 Main St,Houston,60601
+56.0,Alice,,user5@example.com,194-194-0194,512.34,922.98,,Chicago,90001
+57.0,John,nan,user123@example.com,193-193-0193,879.75,289.63,456 Elm St,Phoenix,77001
+58.0,Bob,Davis,user330@example.com,138-138-0138,905.67,767.29,789 Oak St,New York,90001
+59.0,Jane,Brown,user353@example.com,198-198-0198,450.63,487.51,,Phoenix,nan
+60.0,Grace,Davis,user118@example.com,117-117-0117,312.99,849.9,456 Elm St,Los Angeles,nan
+61.0,Bob,Green,user294@example.com,158-158-0158,612.73,,nan,Los Angeles,90001
+62.0,Jane,Moore,user397@example.com,116-116-0116,916.75,787.63,123 Main St,Houston,60601
+63.0,Eve,Green,user159@example.com,113-113-0113,250.13,,456 Elm St,Phoenix,60601
+64.0,Eve,Davis,user303@example.com,130-130-0130,641.82,218.56,456 Elm St,Houston,85001
+65.0,Ivy,Taylor,user228@example.com,123-123-0123,649.98,567.78,789 Oak St,Houston,nan
+66.0,Bob,Taylor,user365@example.com,198-198-0198,746.46,985.44,789 Oak St,,77001
+,Eve,,user216@example.com,159-159-0159,174.99,940.52,nan,Houston,60601
+68.0,Jane,Taylor,user436@example.com,144-144-0144,730.03,91.02,456 Elm St,,10001
+69.0,Ivy,,user184@example.com,197-197-0197,913.58,206.57,456 Elm St,New York,nan
+70.0,Jane,Johnson,user15@example.com,102-102-0102,220.7,175.14,789 Oak St,,77001
+71.0,Ivy,Green,user157@example.com,136-136-0136,275.67,739.68,123 Main St,Houston,77001
+72.0,Bob,nan,user136@example.com,142-142-0142,972.83,826.9,123 Main St,Los Angeles,60601
+73.0,Grace,nan,user261@example.com,139-139-0139,221.93,252.84,101 Pine St,Chicago,77001
+74.0,Frank,Smith,user157@example.com,189-189-0189,861.67,530.56,789 Oak St,Houston,60601
+75.0,Hank,Moore,user47@example.com,154-154-0154,517.66,848.67,101 Pine St,nan,90001
+76.0,Grace,Taylor,user324@example.com,186-186-0186,284.87,746.16,789 Oak St,,nan
+77.0,Charlie,Taylor,user332@example.com,138-138-0138,877.21,565.13,nan,New York,85001
+78.0,Jane,Doe,user173@example.com,114-114-0114,473.04,610.83,456 Elm St,Chicago,90001
+79.0,Charlie,White,user130@example.com,103-103-0103,,532.94,nan,Los Angeles,nan
+80.0,Grace,,user411@example.com,192-192-0192,391.27,332.67,789 Oak St,Houston,60601
+81.0,Ivy,Black,user95@example.com,185-185-0185,613.3,586.77,456 Elm St,,nan
+82.0,,Taylor,user115@example.com,124-124-0124,205.35,704.44,123 Main St,,60601
+83.0,Hank,Moore,user243@example.com,112-112-0112,421.53,879.66,123 Main St,Los Angeles,90001
+84.0,,Smith,user420@example.com,181-181-0181,970.94,654.48,101 Pine St,New York,10001
+85.0,Hank,,user292@example.com,132-132-0132,295.23,773.07,789 Oak St,Los Angeles,10001
+86.0,Frank,Taylor,,115-115-0115,673.9,202.07,,Chicago,nan
+87.0,Hank,Smith,user299@example.com,141-141-0141,358.93,488.48,123 Main St,Phoenix,
+88.0,Grace,Davis,user283@example.com,165-165-0165,784.8,58.87,nan,,60601
+89.0,John,Davis,user69@example.com,154-154-0154,174.33,284.34,456 Elm St,Chicago,77001
+90.0,Grace,White,user148@example.com,198-198-0198,971.33,740.14,nan,Phoenix,60601
+91.0,Grace,Johnson,,141-141-0141,,992.22,nan,Phoenix,77001
+,,Black,user254@example.com,133-133-0133,274.25,144.22,123 Main St,Houston,90001
+93.0,Alice,Doe,user330@example.com,129-129-0129,119.82,431.42,123 Main St,Houston,85001
+94.0,John,White,user360@example.com,112-112-0112,,810.07,123 Main St,Chicago,77001
+95.0,Grace,Brown,user38@example.com,,543.79,243.83,101 Pine St,Chicago,10001
+96.0,Alice,Doe,user134@example.com,117-117-0117,370.15,577.33,nan,New York,60601
+97.0,Alice,Green,user200@example.com,131-131-0131,837.44,746.42,789 Oak St,New York,90001
+98.0,John,Moore,user23@example.com,195-195-0195,459.34,635.19,456 Elm St,Houston,
+99.0,nan,Brown,user303@example.com,198-198-0198,286.28,228.62,101 Pine St,nan,90001
+,Charlie,Brown,user346@example.com,138-138-0138,636.29,387.62,789 Oak St,nan,85001
+101.0,Ivy,White,user302@example.com,145-145-0145,721.44,,nan,Houston,
+102.0,Frank,Johnson,user363@example.com,,208.69,576.52,123 Main St,New York,nan
+103.0,Ivy,White,user396@example.com,161-161-0161,209.24,54.97,nan,New York,60601
+104.0,Hank,Green,user218@example.com,192-192-0192,84.84,,456 Elm St,nan,85001
+,Frank,,user141@example.com,161-161-0161,749.58,83.55,101 Pine St,Los Angeles,60601
+106.0,Hank,Taylor,user104@example.com,156-156-0156,680.61,758.45,101 Pine St,Los Angeles,nan
+,Grace,Taylor,,115-115-0115,500.9,242.36,456 Elm St,New York,
+108.0,Jane,Johnson,user210@example.com,155-155-0155,851.96,960.17,789 Oak St,Los Angeles,90001
+109.0,John,Green,user473@example.com,109-109-0109,815.39,399.54,,Phoenix,nan
+110.0,Frank,Johnson,user481@example.com,129-129-0129,606.09,360.59,101 Pine St,Houston,10001
+111.0,Frank,Smith,user111@example.com,124-124-0124,874.86,191.44,,Houston,85001
+112.0,Grace,Taylor,user104@example.com,183-183-0183,245.55,340.32,123 Main St,New York,
+113.0,Charlie,Brown,user316@example.com,,156.32,882.82,789 Oak St,Chicago,10001
+114.0,Alice,,user171@example.com,164-164-0164,306.26,996.52,456 Elm St,nan,10001
+115.0,Grace,Moore,user460@example.com,193-193-0193,104.23,399.89,789 Oak St,New York,85001
+116.0,Eve,Green,user492@example.com,148-148-0148,554.61,476.18,123 Main St,Los Angeles,77001
+,nan,Doe,user356@example.com,102-102-0102,939.78,735.97,101 Pine St,,
+118.0,Alice,Johnson,user496@example.com,144-144-0144,,891.89,,Chicago,10001
+119.0,John,,user324@example.com,113-113-0113,166.0,613.39,,Los Angeles,
+120.0,Alice,,,129-129-0129,479.59,421.95,456 Elm St,Phoenix,60601
+121.0,Charlie,Moore,,167-167-0167,937.18,441.99,101 Pine St,Los Angeles,10001
+122.0,Alice,Black,user293@example.com,117-117-0117,350.35,710.84,nan,Phoenix,90001
+123.0,John,Doe,user328@example.com,161-161-0161,531.87,53.06,101 Pine St,nan,77001
+,,White,user127@example.com,136-136-0136,89.49,,nan,Phoenix,10001
+125.0,Ivy,Davis,,124-124-0124,,387.72,,,85001
+126.0,Frank,White,user497@example.com,147-147-0147,,804.49,123 Main St,nan,nan
+127.0,Frank,Taylor,user92@example.com,164-164-0164,966.86,138.34,101 Pine St,nan,90001
+128.0,nan,Davis,user287@example.com,152-152-0152,54.69,608.79,,nan,nan
+129.0,Hank,White,user378@example.com,178-178-0178,954.22,506.92,nan,nan,nan
+130.0,Ivy,Davis,user393@example.com,172-172-0172,657.16,660.21,456 Elm St,Los Angeles,10001
+131.0,Ivy,nan,user51@example.com,114-114-0114,874.52,111.61,101 Pine St,nan,90001
+132.0,Alice,Davis,,148-148-0148,482.0,,456 Elm St,Los Angeles,
+133.0,Frank,Brown,user462@example.com,,,583.41,101 Pine St,nan,60601
+134.0,John,Johnson,user296@example.com,167-167-0167,514.4,582.63,789 Oak St,,nan
+135.0,Bob,Johnson,user297@example.com,,683.52,623.31,789 Oak St,nan,90001
+136.0,Bob,,user214@example.com,,182.67,692.64,789 Oak St,Chicago,
+137.0,Charlie,Moore,user267@example.com,136-136-0136,78.47,814.74,789 Oak St,nan,
+138.0,Frank,Smith,,,342.53,306.33,123 Main St,nan,60601
+139.0,Frank,Moore,user257@example.com,,719.45,833.8,123 Main St,Phoenix,85001
+140.0,nan,Doe,,142-142-0142,241.76,523.34,nan,,10001
+141.0,Bob,Doe,user101@example.com,169-169-0169,689.76,123.21,456 Elm St,Phoenix,77001
+142.0,Frank,Davis,user405@example.com,138-138-0138,971.42,105.62,,Chicago,77001
+143.0,nan,,user346@example.com,,139.21,367.53,101 Pine St,Houston,85001
+144.0,Alice,White,user110@example.com,162-162-0162,688.97,795.65,123 Main St,,60601
+145.0,Eve,Johnson,user420@example.com,145-145-0145,471.56,722.3,101 Pine St,New York,10001
+146.0,Jane,Green,user182@example.com,187-187-0187,874.74,799.18,123 Main St,Chicago,60601
+147.0,Ivy,Moore,user471@example.com,110-110-0110,218.29,541.41,nan,Phoenix,
+148.0,Hank,nan,user313@example.com,161-161-0161,707.99,468.19,,,60601
+149.0,Charlie,Taylor,,176-176-0176,846.21,190.08,nan,Chicago,77001
+150.0,Eve,Black,user319@example.com,197-197-0197,947.38,361.78,789 Oak St,Houston,10001
+151.0,Bob,White,user438@example.com,124-124-0124,699.09,462.32,789 Oak St,Houston,60601
+152.0,nan,Black,user55@example.com,170-170-0170,522.32,134.17,789 Oak St,nan,10001
+153.0,Ivy,Davis,user371@example.com,,636.95,,,New York,10001
+,,Black,user424@example.com,103-103-0103,875.46,618.31,101 Pine St,,90001
+155.0,Hank,,user399@example.com,158-158-0158,592.08,748.88,456 Elm St,Chicago,90001
+156.0,Frank,Brown,user149@example.com,171-171-0171,78.87,998.43,789 Oak St,Houston,77001
+,John,Taylor,user431@example.com,119-119-0119,,,789 Oak St,Chicago,85001
+158.0,John,Black,user457@example.com,192-192-0192,705.05,660.44,789 Oak St,Los Angeles,10001
+159.0,Hank,Taylor,user309@example.com,,692.69,450.19,456 Elm St,,85001
+160.0,nan,Smith,user137@example.com,,,,789 Oak St,,77001
+161.0,Hank,Davis,,173-173-0173,675.94,796.37,456 Elm St,Houston,10001
+162.0,Bob,Moore,user436@example.com,197-197-0197,,162.42,789 Oak St,Chicago,10001
+163.0,Hank,Brown,,156-156-0156,668.67,439.41,nan,Phoenix,
+164.0,Alice,nan,user117@example.com,189-189-0189,151.26,847.81,,New York,85001
+165.0,,White,user154@example.com,140-140-0140,674.95,414.64,456 Elm St,Los Angeles,60601
+166.0,Eve,Doe,user425@example.com,102-102-0102,999.44,593.28,nan,Chicago,90001
+167.0,Grace,Moore,user291@example.com,,95.8,608.38,456 Elm St,,60601
+168.0,nan,Doe,user63@example.com,104-104-0104,978.32,225.25,nan,nan,85001
+169.0,,Davis,user244@example.com,104-104-0104,436.56,394.12,nan,,90001
+170.0,Charlie,,user25@example.com,153-153-0153,877.22,367.79,456 Elm St,Los Angeles,60601
+171.0,John,Johnson,user90@example.com,146-146-0146,793.27,74.89,101 Pine St,nan,nan
+172.0,Alice,,user75@example.com,,588.67,72.98,nan,Houston,90001
+173.0,Ivy,Smith,user294@example.com,148-148-0148,751.53,840.11,789 Oak St,Houston,
+174.0,Grace,Johnson,user386@example.com,108-108-0108,884.59,309.42,101 Pine St,Chicago,
+175.0,nan,Davis,user391@example.com,198-198-0198,433.93,,456 Elm St,Phoenix,90001
+176.0,Eve,Moore,user210@example.com,119-119-0119,,333.79,101 Pine St,Chicago,nan
+177.0,Grace,Smith,user475@example.com,160-160-0160,684.21,943.65,123 Main St,Phoenix,90001
+178.0,Hank,Taylor,user418@example.com,,817.45,296.33,,Los Angeles,90001
+179.0,Bob,Black,user347@example.com,149-149-0149,774.17,458.17,nan,,nan
+180.0,John,Smith,user17@example.com,181-181-0181,807.92,879.09,nan,,60601
+181.0,John,nan,user128@example.com,161-161-0161,463.8,849.84,789 Oak St,Chicago,77001
+182.0,Ivy,Davis,user427@example.com,116-116-0116,826.94,226.8,101 Pine St,Phoenix,60601
+183.0,Bob,,user443@example.com,187-187-0187,164.2,812.51,123 Main St,Los Angeles,85001
+184.0,Frank,Black,,102-102-0102,567.26,485.28,,,nan
+,,Doe,,131-131-0131,55.47,508.82,101 Pine St,,60601
+186.0,Alice,,user179@example.com,,358.36,176.81,nan,,90001
+187.0,John,Doe,user182@example.com,112-112-0112,398.14,126.57,nan,nan,nan
+,Charlie,Smith,user152@example.com,188-188-0188,426.36,741.54,123 Main St,Houston,10001
+189.0,John,Doe,user25@example.com,172-172-0172,710.69,521.64,123 Main St,nan,60601
+190.0,Grace,nan,user455@example.com,,419.13,,nan,New York,nan
+191.0,John,Davis,user180@example.com,113-113-0113,476.26,743.03,456 Elm St,Chicago,60601
+192.0,nan,Taylor,user198@example.com,nan,275.67,777.24,nan,New York,nan
+193.0,,Moore,nan,197-197-0197,,200.96,nan,,90001
+194.0,Jane,White,user344@example.com,110-110-0110,265.91,629.71,789 Oak St,Houston,10001
+195.0,Jane,nan,user161@example.com,155-155-0155,119.54,178.59,789 Oak St,Los Angeles,10001
+196.0,Eve,nan,user177@example.com,166-166-0166,623.28,763.81,789 Oak St,nan,85001
+197.0,Frank,Doe,user285@example.com,191-191-0191,684.8,674.11,456 Elm St,Phoenix,nan
+198.0,Charlie,Doe,user63@example.com,128-128-0128,638.52,958.78,456 Elm St,nan,60601
+199.0,John,Smith,user491@example.com,108-108-0108,490.32,115.51,,Houston,10001
+200.0,John,Moore,user150@example.com,166-166-0166,410.8,104.2,789 Oak St,New York,10001
+201.0,Alice,Johnson,,124-124-0124,870.17,318.08,456 Elm St,Phoenix,77001
+202.0,Jane,,user156@example.com,197-197-0197,,298.62,123 Main St,Los Angeles,77001
+203.0,Charlie,,user370@example.com,175-175-0175,505.22,284.63,nan,Houston,10001
+204.0,,Green,user469@example.com,141-141-0141,74.36,910.94,101 Pine St,Phoenix,nan
+205.0,Eve,White,user49@example.com,108-108-0108,374.19,287.07,nan,Houston,85001
+206.0,Frank,Doe,user455@example.com,178-178-0178,411.19,308.35,101 Pine St,Houston,10001
+207.0,,Davis,user337@example.com,139-139-0139,428.88,771.43,789 Oak St,Los Angeles,90001
+208.0,Frank,Davis,user84@example.com,124-124-0124,601.16,477.25,101 Pine St,Chicago,
+209.0,nan,White,user361@example.com,104-104-0104,556.92,787.88,789 Oak St,Phoenix,85001
+210.0,Grace,Johnson,,110-110-0110,627.51,112.1,123 Main St,Los Angeles,
+211.0,nan,Davis,user148@example.com,158-158-0158,776.64,513.19,101 Pine St,Houston,85001
+212.0,John,Green,user118@example.com,197-197-0197,822.34,81.93,nan,Los Angeles,90001
+,Eve,Davis,user342@example.com,187-187-0187,732.22,109.52,789 Oak St,Chicago,60601
+214.0,Grace,Davis,user476@example.com,178-178-0178,957.75,911.12,nan,nan,60601
+215.0,,Davis,user63@example.com,137-137-0137,67.32,182.28,456 Elm St,,
+216.0,Bob,Taylor,user189@example.com,171-171-0171,235.99,555.8,789 Oak St,Chicago,nan
+217.0,Jane,Taylor,user360@example.com,104-104-0104,,440.54,101 Pine St,New York,90001
+218.0,Eve,Johnson,user49@example.com,147-147-0147,665.1,379.98,789 Oak St,Phoenix,77001
+219.0,,Doe,user327@example.com,189-189-0189,903.13,904.84,,Chicago,90001
+220.0,nan,Davis,user257@example.com,117-117-0117,281.31,70.73,123 Main St,Houston,77001
+221.0,John,Moore,user224@example.com,169-169-0169,930.68,,,Phoenix,60601
+222.0,Hank,Doe,,136-136-0136,107.25,,101 Pine St,Phoenix,85001
+223.0,nan,Johnson,user478@example.com,159-159-0159,,582.16,456 Elm St,Los Angeles,77001
+224.0,Eve,Brown,user215@example.com,147-147-0147,,939.98,123 Main St,Houston,90001
+,Alice,Doe,user435@example.com,176-176-0176,146.35,99.64,456 Elm St,New York,90001
+,Bob,Doe,user379@example.com,127-127-0127,511.58,447.85,789 Oak St,nan,nan
+227.0,nan,Black,user440@example.com,168-168-0168,293.94,297.15,nan,Chicago,60601
+228.0,Bob,Smith,user211@example.com,176-176-0176,320.63,744.28,nan,Los Angeles,90001
+229.0,Alice,Black,user318@example.com,180-180-0180,341.93,982.23,101 Pine St,Chicago,10001
+230.0,Ivy,Green,user32@example.com,139-139-0139,,293.7,nan,New York,85001
+231.0,Alice,Taylor,user158@example.com,144-144-0144,562.2,671.47,123 Main St,New York,77001
+232.0,Alice,Taylor,user285@example.com,195-195-0195,345.74,238.19,nan,Phoenix,nan
+233.0,Bob,Smith,user305@example.com,161-161-0161,629.82,,101 Pine St,,
+234.0,Frank,,user429@example.com,192-192-0192,730.34,490.74,789 Oak St,Chicago,60601
+235.0,Bob,,user477@example.com,157-157-0157,308.99,,789 Oak St,Houston,nan
+236.0,Hank,Johnson,user286@example.com,,442.87,628.1,nan,Houston,77001
+237.0,John,nan,user144@example.com,155-155-0155,165.79,382.03,456 Elm St,Phoenix,77001
+238.0,Grace,Smith,user424@example.com,139-139-0139,222.09,158.39,789 Oak St,nan,10001
+239.0,Frank,Doe,user19@example.com,197-197-0197,697.06,193.68,nan,,60601
+240.0,Jane,White,user18@example.com,139-139-0139,222.37,264.05,,Chicago,nan
+241.0,Grace,Davis,user257@example.com,190-190-0190,548.91,288.42,nan,New York,nan
+242.0,John,nan,,176-176-0176,723.59,,789 Oak St,Chicago,90001
+243.0,nan,Moore,user371@example.com,132-132-0132,,583.16,101 Pine St,Los Angeles,
+244.0,Hank,,user175@example.com,105-105-0105,588.95,547.22,nan,nan,10001
+,Hank,Green,user498@example.com,,293.73,159.03,,New York,nan
+246.0,Jane,Davis,user194@example.com,,964.78,867.13,101 Pine St,Los Angeles,nan
+247.0,Frank,Davis,user476@example.com,179-179-0179,509.37,736.67,123 Main St,Phoenix,85001
+,Ivy,Smith,user113@example.com,139-139-0139,815.69,114.28,456 Elm St,Houston,
+,Alice,,user114@example.com,191-191-0191,572.72,722.44,101 Pine St,Phoenix,85001
+250.0,Frank,Johnson,user222@example.com,196-196-0196,91.24,566.36,,Houston,10001
+251.0,Ivy,Green,user166@example.com,158-158-0158,651.49,127.64,789 Oak St,Phoenix,90001
+252.0,Hank,White,user435@example.com,158-158-0158,953.83,485.39,789 Oak St,,77001
+253.0,Bob,Smith,user319@example.com,147-147-0147,621.53,510.46,456 Elm St,Los Angeles,85001
+,John,,user132@example.com,140-140-0140,828.23,207.49,101 Pine St,Houston,90001
+255.0,Jane,Smith,,,890.0,948.41,101 Pine St,New York,60601
+256.0,John,Smith,user264@example.com,,266.68,,101 Pine St,Los Angeles,
+257.0,Charlie,,user413@example.com,188-188-0188,251.44,685.57,,New York,77001
+258.0,Charlie,nan,user55@example.com,152-152-0152,630.43,489.18,101 Pine St,Los Angeles,60601
+,nan,Johnson,user359@example.com,141-141-0141,440.48,441.18,789 Oak St,Los Angeles,
+260.0,Frank,Smith,user131@example.com,199-199-0199,847.87,668.42,123 Main St,Phoenix,77001
+261.0,,Brown,user288@example.com,162-162-0162,905.02,568.16,789 Oak St,Houston,85001
+262.0,Hank,,,,,109.16,789 Oak St,Houston,10001
+263.0,Alice,White,,137-137-0137,275.03,536.88,123 Main St,Los Angeles,77001
+264.0,Alice,Doe,user467@example.com,159-159-0159,791.5,816.08,789 Oak St,Chicago,77001
+,Alice,Black,user366@example.com,106-106-0106,311.07,,456 Elm St,Chicago,77001
+266.0,,Green,user162@example.com,104-104-0104,831.48,,123 Main St,New York,60601
+267.0,Grace,Taylor,user380@example.com,144-144-0144,452.55,796.96,789 Oak St,New York,90001
+268.0,Eve,Johnson,user481@example.com,157-157-0157,684.17,241.3,nan,Phoenix,10001
+269.0,Grace,Doe,user87@example.com,130-130-0130,,295.69,789 Oak St,Los Angeles,85001
+270.0,John,Davis,user55@example.com,122-122-0122,642.67,206.47,456 Elm St,New York,85001
+271.0,Grace,,user476@example.com,141-141-0141,479.18,363.7,101 Pine St,New York,90001
+,Bob,Taylor,user288@example.com,109-109-0109,607.28,768.91,789 Oak St,nan,77001
+273.0,nan,Black,,131-131-0131,209.61,543.42,101 Pine St,Los Angeles,10001
+274.0,,Doe,user391@example.com,,,244.64,,Phoenix,
+275.0,,Taylor,user349@example.com,129-129-0129,869.66,883.94,789 Oak St,New York,nan
+276.0,Bob,Doe,user8@example.com,138-138-0138,255.9,885.6,123 Main St,Phoenix,85001
+277.0,Eve,,user321@example.com,130-130-0130,,877.05,,Houston,77001
+278.0,Grace,Black,user313@example.com,181-181-0181,72.46,276.86,nan,,nan
+279.0,Bob,Davis,user247@example.com,199-199-0199,659.87,478.68,123 Main St,Chicago,90001
+,,Smith,user323@example.com,101-101-0101,626.74,985.74,123 Main St,Chicago,10001
+281.0,Hank,White,user472@example.com,177-177-0177,569.36,783.41,123 Main St,Phoenix,90001
+282.0,Alice,Davis,user471@example.com,176-176-0176,270.35,75.81,123 Main St,Chicago,90001
+,Hank,Smith,user443@example.com,192-192-0192,421.36,111.94,789 Oak St,Houston,
+284.0,Jane,nan,user255@example.com,111-111-0111,614.75,490.73,789 Oak St,Los Angeles,10001
+285.0,Jane,nan,user328@example.com,138-138-0138,521.93,913.76,789 Oak St,Chicago,85001
+,Jane,nan,user54@example.com,165-165-0165,988.4,561.77,nan,Chicago,85001
+287.0,Eve,Johnson,user249@example.com,195-195-0195,179.62,522.92,nan,Phoenix,10001
+288.0,Alice,Moore,user239@example.com,112-112-0112,710.39,150.2,nan,Houston,nan
+289.0,Hank,,user229@example.com,145-145-0145,434.1,673.94,456 Elm St,Los Angeles,60601
+290.0,Bob,,user67@example.com,126-126-0126,456.79,831.0,,Phoenix,85001
+291.0,John,nan,user51@example.com,116-116-0116,731.72,411.4,789 Oak St,Phoenix,60601
+,Bob,,user97@example.com,,707.81,786.83,789 Oak St,nan,nan
+293.0,John,Black,user92@example.com,197-197-0197,,966.25,456 Elm St,Houston,10001
+294.0,Charlie,Brown,user495@example.com,159-159-0159,171.97,243.58,456 Elm St,Los Angeles,nan
+295.0,,Black,user264@example.com,163-163-0163,148.9,,,Houston,85001
+296.0,Grace,Brown,user418@example.com,187-187-0187,738.12,322.78,101 Pine St,Los Angeles,
+297.0,Grace,Black,user291@example.com,134-134-0134,599.47,803.21,456 Elm St,Houston,10001
+,Frank,Moore,user96@example.com,169-169-0169,310.45,598.71,123 Main St,Phoenix,77001
+299.0,Alice,Johnson,user88@example.com,,,652.85,789 Oak St,Phoenix,60601
+300.0,John,Johnson,user78@example.com,129-129-0129,131.38,808.02,123 Main St,New York,nan
+301.0,John,nan,user288@example.com,,899.48,426.17,789 Oak St,Chicago,10001
+302.0,nan,Smith,user120@example.com,173-173-0173,,919.34,789 Oak St,nan,nan
+303.0,Alice,Taylor,user302@example.com,195-195-0195,357.2,556.38,456 Elm St,Houston,10001
+304.0,Eve,Johnson,user491@example.com,197-197-0197,265.32,200.06,,,85001
+,Frank,Johnson,user400@example.com,162-162-0162,387.25,711.1,123 Main St,New York,85001
+306.0,Eve,Davis,user452@example.com,127-127-0127,115.95,,789 Oak St,Chicago,85001
+307.0,Eve,Davis,,159-159-0159,543.11,350.92,123 Main St,Houston,nan
+308.0,Eve,Smith,user165@example.com,178-178-0178,114.23,864.32,101 Pine St,,
+309.0,Alice,Taylor,user182@example.com,,810.34,910.84,123 Main St,Chicago,85001
+310.0,Eve,White,user469@example.com,136-136-0136,272.03,313.06,nan,Phoenix,10001
+311.0,Grace,Davis,user398@example.com,192-192-0192,563.01,984.35,123 Main St,New York,85001
+312.0,nan,White,user223@example.com,121-121-0121,886.08,183.68,nan,Chicago,90001
+313.0,nan,Doe,user311@example.com,167-167-0167,668.33,241.91,nan,Chicago,85001
+,Jane,Davis,user432@example.com,119-119-0119,556.31,225.01,nan,Phoenix,
+315.0,Charlie,Moore,user466@example.com,195-195-0195,358.12,899.29,101 Pine St,Houston,77001
+316.0,John,Taylor,,199-199-0199,366.35,671.58,123 Main St,Los Angeles,90001
+,John,Smith,user330@example.com,167-167-0167,686.01,194.5,,Phoenix,nan
+318.0,Charlie,,user263@example.com,,994.43,468.31,101 Pine St,Los Angeles,nan
+319.0,Alice,Taylor,user161@example.com,163-163-0163,678.75,634.53,789 Oak St,Houston,nan
+320.0,Bob,nan,user151@example.com,116-116-0116,579.89,129.29,456 Elm St,Chicago,10001
+321.0,Alice,Moore,,111-111-0111,744.12,888.3,,Los Angeles,nan
+322.0,John,Taylor,user147@example.com,121-121-0121,491.95,813.42,456 Elm St,New York,
+,John,Moore,user112@example.com,116-116-0116,107.14,529.95,101 Pine St,New York,nan
+324.0,Charlie,,,109-109-0109,584.18,968.77,789 Oak St,Phoenix,60601
+325.0,Eve,White,user403@example.com,164-164-0164,959.74,446.87,,,90001
+326.0,Alice,Black,,121-121-0121,216.54,984.9,789 Oak St,Phoenix,60601
+327.0,Hank,nan,user285@example.com,189-189-0189,705.5,684.52,,Phoenix,nan
+328.0,Charlie,Doe,user188@example.com,181-181-0181,,652.94,nan,nan,90001
+,Grace,Taylor,,149-149-0149,559.04,207.66,nan,Phoenix,90001
+330.0,John,Brown,user2@example.com,113-113-0113,141.84,887.83,456 Elm St,,77001
+331.0,Charlie,Doe,user385@example.com,163-163-0163,477.85,456.12,nan,New York,60601
+332.0,Alice,Black,user303@example.com,146-146-0146,768.36,204.12,nan,New York,
+333.0,,Doe,user197@example.com,128-128-0128,380.19,61.98,789 Oak St,Phoenix,90001
+334.0,Bob,Johnson,user404@example.com,175-175-0175,681.67,581.77,,New York,10001
+,Charlie,Brown,user11@example.com,135-135-0135,805.68,551.03,456 Elm St,Houston,90001
+336.0,Frank,Black,user234@example.com,198-198-0198,930.82,733.39,,nan,77001
+337.0,,White,user386@example.com,151-151-0151,272.91,895.75,456 Elm St,nan,60601
+338.0,Alice,Taylor,user195@example.com,175-175-0175,429.35,125.44,456 Elm St,Phoenix,nan
+339.0,Jane,Green,user471@example.com,106-106-0106,194.8,744.92,101 Pine St,New York,nan
+340.0,Hank,Black,user119@example.com,128-128-0128,992.86,228.04,,Los Angeles,60601
+341.0,,Smith,user396@example.com,110-110-0110,930.65,,456 Elm St,nan,nan
+342.0,,,user20@example.com,132-132-0132,562.96,828.11,456 Elm St,Phoenix,nan
+343.0,Ivy,nan,user261@example.com,105-105-0105,849.93,563.75,456 Elm St,Phoenix,
+344.0,Alice,Black,user293@example.com,178-178-0178,544.91,724.73,nan,Houston,60601
+345.0,Grace,Johnson,user422@example.com,131-131-0131,642.41,348.63,101 Pine St,Chicago,85001
+346.0,Grace,Green,user256@example.com,150-150-0150,134.67,497.61,456 Elm St,Chicago,10001
+347.0,Jane,Johnson,user222@example.com,174-174-0174,767.51,830.56,789 Oak St,nan,10001
+348.0,Eve,Green,user393@example.com,157-157-0157,171.33,486.3,789 Oak St,Houston,nan
+349.0,Frank,,user226@example.com,186-186-0186,,389.91,nan,Houston,10001
+350.0,Jane,Smith,user53@example.com,,792.93,519.5,nan,Houston,60601
+351.0,nan,Taylor,user428@example.com,197-197-0197,,836.84,123 Main St,nan,60601
+352.0,Ivy,White,user355@example.com,145-145-0145,84.35,,123 Main St,Chicago,90001
+353.0,Jane,Johnson,user500@example.com,197-197-0197,337.97,215.07,123 Main St,Houston,90001
+,Ivy,Johnson,user342@example.com,128-128-0128,299.96,726.41,nan,New York,10001
+355.0,John,Moore,user364@example.com,103-103-0103,392.13,834.68,nan,Phoenix,85001
+356.0,Grace,Green,user280@example.com,180-180-0180,133.26,145.61,nan,Phoenix,90001
+357.0,John,Davis,user81@example.com,198-198-0198,940.11,277.88,789 Oak St,Los Angeles,90001
+358.0,Hank,,user202@example.com,112-112-0112,576.11,184.87,nan,Los Angeles,60601
+359.0,nan,Green,user158@example.com,138-138-0138,,380.54,789 Oak St,nan,85001
+360.0,Eve,Moore,user120@example.com,114-114-0114,427.13,477.83,123 Main St,nan,nan
+361.0,Frank,Doe,user59@example.com,128-128-0128,,761.39,123 Main St,Phoenix,10001
+362.0,,Green,user494@example.com,128-128-0128,620.56,668.59,123 Main St,New York,90001
+363.0,Frank,White,user215@example.com,174-174-0174,539.9,639.88,456 Elm St,Chicago,85001
+364.0,Ivy,Taylor,user128@example.com,131-131-0131,923.42,384.76,456 Elm St,Chicago,85001
+365.0,Alice,Moore,,101-101-0101,522.12,849.38,101 Pine St,nan,10001
+366.0,Jane,Doe,,,992.55,497.72,101 Pine St,New York,85001
+367.0,Hank,Brown,user370@example.com,177-177-0177,858.85,980.15,101 Pine St,nan,
+,Grace,Moore,user115@example.com,183-183-0183,248.08,652.44,456 Elm St,Chicago,85001
+369.0,,Brown,user209@example.com,121-121-0121,934.07,169.95,,nan,90001
+370.0,Frank,Taylor,user14@example.com,174-174-0174,160.55,692.37,101 Pine St,Houston,10001
+371.0,Hank,Johnson,user9@example.com,126-126-0126,826.58,358.85,101 Pine St,nan,85001
+372.0,Bob,,user40@example.com,166-166-0166,411.59,702.01,nan,Phoenix,85001
+,Bob,Smith,user450@example.com,180-180-0180,,,101 Pine St,nan,90001
+,John,Brown,user237@example.com,155-155-0155,,216.14,nan,Phoenix,10001
+375.0,Grace,White,user281@example.com,191-191-0191,815.63,862.95,789 Oak St,New York,60601
+376.0,Alice,Smith,user359@example.com,,800.53,265.82,456 Elm St,Chicago,90001
+377.0,Frank,Black,user201@example.com,120-120-0120,339.45,845.19,,Los Angeles,10001
+378.0,Jane,Black,user246@example.com,146-146-0146,126.87,315.31,456 Elm St,Los Angeles,85001
+,Jane,Doe,user278@example.com,179-179-0179,432.83,,,Chicago,10001
+380.0,Frank,Johnson,user235@example.com,nan,214.85,709.44,,Los Angeles,10001
+381.0,Eve,Taylor,user494@example.com,158-158-0158,710.2,537.02,789 Oak St,nan,nan
+382.0,Alice,Moore,user4@example.com,183-183-0183,378.79,340.05,123 Main St,,10001
+383.0,Hank,Davis,user154@example.com,105-105-0105,976.83,252.01,101 Pine St,,60601
+384.0,,White,user442@example.com,118-118-0118,,81.53,123 Main St,Chicago,
+385.0,Eve,Brown,user29@example.com,156-156-0156,831.36,338.75,123 Main St,Los Angeles,60601
+386.0,Ivy,Taylor,,,175.9,670.5,123 Main St,nan,85001
+387.0,Ivy,Smith,user98@example.com,102-102-0102,868.91,941.39,456 Elm St,,60601
+388.0,Eve,nan,user215@example.com,100-100-0100,926.62,877.64,,New York,85001
+389.0,John,Black,user293@example.com,157-157-0157,512.71,777.76,456 Elm St,Houston,85001
+390.0,Bob,,user75@example.com,137-137-0137,625.94,799.02,456 Elm St,Houston,60601
+391.0,Ivy,White,user326@example.com,114-114-0114,776.57,681.74,123 Main St,New York,90001
+392.0,Eve,Davis,user146@example.com,133-133-0133,216.1,297.27,456 Elm St,Chicago,77001
+393.0,Eve,Moore,user128@example.com,160-160-0160,527.44,911.84,123 Main St,Phoenix,10001
+394.0,,Doe,,134-134-0134,428.73,,nan,Phoenix,nan
+395.0,Charlie,Davis,user42@example.com,163-163-0163,189.06,582.42,101 Pine St,nan,77001
+396.0,John,White,user356@example.com,124-124-0124,399.16,155.44,123 Main St,New York,10001
+397.0,Grace,Davis,user41@example.com,123-123-0123,114.76,474.7,nan,New York,10001
+398.0,,White,,111-111-0111,74.52,,101 Pine St,New York,85001
+399.0,Charlie,White,user34@example.com,,178.41,,789 Oak St,Chicago,10001
+400.0,Frank,Green,user17@example.com,114-114-0114,964.96,569.32,123 Main St,Houston,
+401.0,,Brown,user165@example.com,179-179-0179,572.05,411.38,123 Main St,,10001
+402.0,Eve,nan,user153@example.com,126-126-0126,967.53,977.96,789 Oak St,New York,60601
+403.0,Bob,Black,user486@example.com,171-171-0171,460.87,155.18,789 Oak St,Los Angeles,77001
+404.0,Alice,Green,user378@example.com,159-159-0159,,451.42,123 Main St,Chicago,60601
+405.0,Frank,Moore,user76@example.com,145-145-0145,530.83,89.92,789 Oak St,nan,nan
+406.0,Grace,Green,user87@example.com,188-188-0188,467.54,,456 Elm St,New York,10001
+407.0,Bob,Johnson,,116-116-0116,150.38,922.17,101 Pine St,,nan
+408.0,Jane,Johnson,user362@example.com,192-192-0192,658.78,316.04,101 Pine St,Phoenix,85001
+,,Black,user342@example.com,152-152-0152,255.24,,101 Pine St,nan,60601
+410.0,,Davis,user469@example.com,107-107-0107,638.61,327.61,456 Elm St,New York,60601
+411.0,John,Brown,user27@example.com,178-178-0178,667.69,915.23,789 Oak St,,90001
+412.0,Grace,Black,,126-126-0126,,766.26,nan,Los Angeles,10001
+413.0,,White,user287@example.com,145-145-0145,108.28,814.66,789 Oak St,Chicago,85001
+,,Smith,user134@example.com,149-149-0149,791.72,67.11,123 Main St,New York,60601
+415.0,Frank,Brown,user219@example.com,170-170-0170,486.81,,101 Pine St,Phoenix,60601
+416.0,Ivy,nan,,102-102-0102,105.26,740.34,789 Oak St,New York,85001
+417.0,Charlie,Brown,user98@example.com,192-192-0192,995.12,339.51,nan,Phoenix,nan
+418.0,Ivy,,user268@example.com,163-163-0163,104.89,837.92,123 Main St,nan,nan
+419.0,Charlie,White,user237@example.com,,710.28,317.45,456 Elm St,nan,10001
+,Frank,Doe,user309@example.com,152-152-0152,,879.12,456 Elm St,Houston,90001
+421.0,Hank,Black,,123-123-0123,277.22,156.95,nan,Houston,60601
+422.0,Charlie,,user394@example.com,159-159-0159,185.14,718.5,123 Main St,Phoenix,90001
+423.0,John,Johnson,user173@example.com,102-102-0102,165.32,563.66,101 Pine St,Chicago,nan
+424.0,Ivy,Moore,user401@example.com,,,141.71,,New York,nan
+425.0,Ivy,Smith,user410@example.com,145-145-0145,,279.8,123 Main St,New York,77001
+426.0,John,nan,user469@example.com,114-114-0114,707.55,61.78,456 Elm St,Houston,10001
+427.0,Jane,Black,user476@example.com,124-124-0124,109.18,495.33,,Phoenix,77001
+428.0,Eve,Taylor,user190@example.com,193-193-0193,533.95,336.2,nan,New York,77001
+429.0,,Johnson,user122@example.com,,996.86,618.44,789 Oak St,New York,77001
+,Grace,Davis,user46@example.com,170-170-0170,823.27,332.38,nan,Chicago,10001
+431.0,Charlie,White,user64@example.com,116-116-0116,634.46,334.92,nan,Los Angeles,10001
+432.0,,Taylor,user130@example.com,,340.94,756.03,123 Main St,Houston,85001
+,Frank,White,user310@example.com,199-199-0199,642.7,,101 Pine St,Houston,90001
+434.0,Charlie,Brown,user363@example.com,,550.69,907.75,789 Oak St,Los Angeles,
+,Eve,Johnson,user193@example.com,137-137-0137,454.78,859.65,,New York,85001
+436.0,Frank,,user307@example.com,147-147-0147,174.17,,101 Pine St,,85001
+437.0,Alice,Doe,user181@example.com,159-159-0159,892.27,613.56,123 Main St,Chicago,
+438.0,Ivy,Brown,user292@example.com,162-162-0162,477.3,,123 Main St,Houston,77001
+439.0,Alice,Doe,user371@example.com,185-185-0185,234.89,226.06,nan,Chicago,85001
+440.0,Charlie,Doe,,101-101-0101,,,101 Pine St,nan,60601
+441.0,Eve,Taylor,user29@example.com,187-187-0187,443.42,277.53,789 Oak St,Los Angeles,90001
+442.0,Hank,White,user149@example.com,171-171-0171,836.16,804.85,789 Oak St,New York,
+443.0,Charlie,Davis,user267@example.com,110-110-0110,746.93,82.94,101 Pine St,nan,60601
+444.0,John,nan,user296@example.com,163-163-0163,780.84,603.67,nan,Los Angeles,60601
+445.0,Bob,Brown,user11@example.com,176-176-0176,60.48,995.67,456 Elm St,Phoenix,
+446.0,Charlie,nan,user164@example.com,180-180-0180,445.35,862.91,123 Main St,Houston,nan
+447.0,Ivy,Johnson,user113@example.com,171-171-0171,507.28,545.37,nan,Chicago,nan
+448.0,Ivy,,user187@example.com,,,110.46,101 Pine St,Phoenix,60601
+449.0,Charlie,White,user295@example.com,117-117-0117,296.82,839.8,123 Main St,Chicago,nan
+450.0,Frank,Smith,,193-193-0193,,619.03,789 Oak St,nan,77001
+451.0,,Black,user227@example.com,163-163-0163,180.25,159.19,,New York,60601
+452.0,John,Taylor,user310@example.com,,558.54,139.16,789 Oak St,New York,77001
+453.0,Charlie,,user98@example.com,194-194-0194,254.44,914.15,101 Pine St,New York,77001
+,Frank,Green,user55@example.com,137-137-0137,61.51,685.74,123 Main St,Chicago,60601
+,Ivy,Taylor,user111@example.com,131-131-0131,279.14,837.82,101 Pine St,Phoenix,90001
+456.0,Ivy,Smith,user152@example.com,110-110-0110,977.08,,123 Main St,New York,60601
+457.0,,Black,user246@example.com,144-144-0144,811.46,593.18,nan,Phoenix,
+458.0,Charlie,Smith,user406@example.com,188-188-0188,961.6,541.57,,,nan
+459.0,Bob,Brown,user69@example.com,132-132-0132,513.46,458.91,nan,nan,60601
+460.0,Jane,Doe,user312@example.com,140-140-0140,154.25,351.1,nan,,90001
+461.0,Bob,Davis,user289@example.com,,570.56,462.87,101 Pine St,nan,nan
+462.0,Ivy,Moore,,110-110-0110,481.66,785.19,456 Elm St,Chicago,10001
+463.0,,Doe,user36@example.com,185-185-0185,852.14,621.83,123 Main St,Chicago,10001
+464.0,Alice,Moore,user239@example.com,150-150-0150,143.18,,123 Main St,Houston,
+465.0,Ivy,nan,user148@example.com,187-187-0187,513.83,471.21,,Chicago,
+466.0,John,Black,user467@example.com,140-140-0140,192.55,,123 Main St,,90001
+467.0,,,user227@example.com,116-116-0116,358.44,,101 Pine St,Los Angeles,
+468.0,Charlie,,user244@example.com,175-175-0175,750.49,612.11,nan,New York,
+469.0,Bob,Johnson,user491@example.com,145-145-0145,502.22,717.5,,Houston,77001
+470.0,Grace,Doe,user337@example.com,131-131-0131,407.09,275.56,nan,Houston,10001
+471.0,Frank,Davis,user446@example.com,178-178-0178,424.75,536.75,456 Elm St,Houston,90001
+472.0,Jane,Smith,user365@example.com,179-179-0179,486.47,149.01,123 Main St,Los Angeles,90001
+473.0,John,Davis,user491@example.com,153-153-0153,795.77,415.29,101 Pine St,nan,85001
+474.0,nan,Black,user482@example.com,185-185-0185,897.48,513.28,,,85001
+,,nan,,191-191-0191,,669.61,789 Oak St,New York,nan
+476.0,Grace,Moore,user154@example.com,119-119-0119,797.56,953.0,101 Pine St,,90001
+477.0,Jane,Smith,user450@example.com,132-132-0132,349.64,620.62,101 Pine St,nan,77001
+478.0,Alice,Johnson,nan,173-173-0173,703.73,756.41,101 Pine St,Chicago,10001
+,John,Johnson,user73@example.com,139-139-0139,465.72,,nan,Los Angeles,60601
+480.0,John,Doe,user201@example.com,131-131-0131,291.94,652.4,101 Pine St,Chicago,85001
+481.0,Alice,Black,user296@example.com,196-196-0196,848.83,117.39,123 Main St,Chicago,60601
+482.0,nan,White,,,86.51,291.67,101 Pine St,Los Angeles,
+483.0,,Black,user129@example.com,196-196-0196,906.67,393.76,nan,Houston,85001
+484.0,Alice,nan,user217@example.com,,488.4,498.87,101 Pine St,Houston,60601
+,John,Moore,user61@example.com,176-176-0176,655.34,93.37,789 Oak St,New York,77001
+486.0,John,Davis,user427@example.com,129-129-0129,676.39,183.02,789 Oak St,New York,10001
+487.0,Grace,Johnson,user104@example.com,132-132-0132,900.36,,nan,Houston,77001
+488.0,Ivy,Davis,user42@example.com,176-176-0176,654.84,972.96,123 Main St,nan,nan
+489.0,nan,Davis,user25@example.com,125-125-0125,633.24,,123 Main St,Phoenix,85001
+490.0,Jane,Davis,,121-121-0121,113.32,,,Chicago,90001
+491.0,,Johnson,user291@example.com,,542.49,236.29,nan,Phoenix,10001
+492.0,Jane,nan,,137-137-0137,192.66,630.24,101 Pine St,Chicago,60601
+493.0,Alice,,user498@example.com,189-189-0189,750.56,316.65,nan,Houston,85001
+494.0,,Brown,user229@example.com,145-145-0145,536.61,246.64,456 Elm St,New York,90001
+495.0,John,Moore,,114-114-0114,696.22,540.74,nan,nan,77001
+496.0,,Taylor,user172@example.com,197-197-0197,89.59,,nan,New York,
+497.0,Grace,,user435@example.com,143-143-0143,130.55,,456 Elm St,Phoenix,85001
+498.0,Ivy,Smith,user478@example.com,148-148-0148,730.51,258.12,123 Main St,New York,85001
+499.0,,Black,user102@example.com,174-174-0174,,,101 Pine St,Houston,nan
+,Ivy,Black,user354@example.com,160-160-0160,117.69,152.62,456 Elm St,nan,
